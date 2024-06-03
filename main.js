@@ -1,24 +1,12 @@
-let firstNumber = Number (prompt ('Enter First number :'));
-op = prompt ('Enter your operator');
-let secondNumber = Number(prompt ('Enter Second number :')) ;
+let Fname = prompt ('Enter your first Name :');
+let surname = prompt ('Enter your Surname :');
+let citizenship = prompt ('Enter your Citizenship :');
+let age = Number(prompt ('Enter your age :'));
 
- if (op === '+'){
-    console.log ('your answer is '+ (firstNumber + secondNumber));
- }
-
- else if (op ==='-'){
-    console.log ('your answer is '+  (firstNumber - secondNumber));
- }
-
- else if (op === '*'){
-    console.log ('your answer is '+ (firstNumber * secondNumber));
- }
-
- else if (op === '/'){
-    console.log ('your answer is '+ (firstNumber / secondNumber));
- }
- else {
-    console.log ('invaild answer')
- }
+if ( age >= 18 && citizenship =='South Africa'){
+   alert ('Hi '+ Fname+''+ surname +''+ ' you can vote')}
+else {
+   alert ('Hi '+ Fname+''+ surname +''+ ' you cant vote')
+}
 
 
