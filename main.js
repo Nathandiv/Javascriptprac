@@ -1,8 +1,8 @@
-let firstNumber = prompt ('Enter First number :');
+let firstNumber = Number (prompt ('Enter First number :'));
 op = prompt ('Enter your operator');
-let secondNumber = prompt ('Enter Second number :');
+let secondNumber = Number(prompt ('Enter Second number :')) ;
 
- if (op == '+'){
+ if (op === '+'){
     console.log ('your answer is '+ (firstNumber + secondNumber));
  }
 
@@ -10,11 +10,11 @@ let secondNumber = prompt ('Enter Second number :');
     console.log ('your answer is '+  (firstNumber - secondNumber));
  }
 
- else if (op == '*'){
+ else if (op === '*'){
     console.log ('your answer is '+ (firstNumber * secondNumber));
  }
 
- else if (op == '/'){
+ else if (op === '/'){
     console.log ('your answer is '+ (firstNumber / secondNumber));
  }
  else {
